@@ -1,0 +1,153 @@
+.inputNoBoarder {
+  border: none;
+  margin-bottom: 0px !important;
+  /* background-color: white ; */
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.input-group-text {
+  background-color: white;
+  border: none;
+}
+
+.smallBtn {
+  display: flex;
+  align-items: center;
+}
+
+.noPadding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.onlyLeftPadding {
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+hr {
+  margin: 0px;
+}
+
+.container-fluid {
+  margin-top: 10px;
+}
+
+.test {
+  border: 1px solid black;
+}
+
+.noMargin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.colorDiv {
+  position: relative;
+}
+
+
+#colorpickers{
+  position: absolute;
+  width: 120px;
+  height: 105px;
+  border: 1px solid white;
+  left: 25px;
+  top : -95px;
+  background-color: white;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.20);
+}
+
+
+.packery {
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.item {
+  width: 20%;
+  float: left;
+  background: #C09;
+  margin: 2px;
+}
+
+.item:hover {
+  cursor: move;
+
+}
+
+#dr1,#dr2,#dr3{
+  height: 35px;
+  width: 100%;
+  /* border: 1px solid gray; */
+}
+#dr1c1 ,#dr1c2 ,#dr1c3 ,#dr1c4{
+  width: 29px;
+  height: 30px;
+  
+  border-radius: 15px;
+  float: left;
+}
+#dr2c1 ,#dr2c2 ,#dr2c3 ,#dr2c4{
+  width: 29px;
+  height: 30px;
+  
+  border-radius: 15px;
+  float: left;
+}
+#dr3c1 ,#dr3c2 ,#dr3c3 ,#dr3c4{
+  width: 29px;
+  height: 30px;
+ 
+  border-radius: 15px;
+  float: left;
+}
+#dr1c1{
+  background-color: white;
+  border: 1px solid gray;
+}
+#dr1c2{
+  background-color: rgb(242, 139, 130)
+}
+#dr1c3{
+  background-color: rgb(251, 188, 4);
+}
+#dr1c4{
+  background-color: rgb(255, 244, 117);
+}
+#dr2c1{
+  background-color: rgb(204, 255, 144);
+}
+#dr2c2{
+  background-color: rgb(167, 255, 235);
+}
+#dr2c3{
+  background-color: rgb(203, 240, 248);
+}
+#dr2c4{
+  background-color: rgb(174, 203, 250);
+}
+#dr3c1{
+  
+  background-color: rgb(215, 174, 251);
+}
+#dr3c2{
+  background-color: rgb(253, 207, 232);
+}
+#dr3c3{
+  background-color: rgb(230, 201, 168);
+}
+#dr3c4{
+  background-color: rgb(232, 234, 237);
+}
+
+
+/*# sourceMappingURL=styles.css.map */
